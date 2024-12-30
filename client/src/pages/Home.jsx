@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 import icon01 from "../assets/images/icon01.png"
 import icon02 from "../assets/images/icon02.png"
 import icon03 from "../assets/images/icon03.png"
+import About from '../components/about/About'
 
 
 const Home = () => {
@@ -74,8 +75,9 @@ const Home = () => {
           </div>
         </section>
 
-        {/* =============== hero section end ============== */}
+      {/* =============== hero section end ============== */}
 
+      {/* =============== home page highlights ============== */}
 
         <section>
           <div className="container">
@@ -139,6 +141,13 @@ const Home = () => {
           </div>
         </section>
       
+      {/* =============== home page highlights end ============== */}
+
+      {/* =============== about section ============== */}
+
+        <About />
+
+      {/* =============== about section end ============== */}
 
     </>
   )
