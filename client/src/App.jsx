@@ -1,11 +1,11 @@
 import React from 'react'
 import "./App.css"
+import Layout from './layout/Layout'
+
 
 const App = () => {
   return (
-    <div className='text-red-500'>
-      Hello
-    </div>
+    <Layout />
   )
 }
 
