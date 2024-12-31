@@ -11,6 +11,7 @@ import About from '../components/about/About'
 import HomeServices from '../components/services/HomeServices'
 import Feature from '../components/feature/Feature'
 import Doctor from '../components/doctor/Doctor'
+import Faq from '../components/faq/Faq'
 
 
 const Home = () => {
@@ -171,6 +172,14 @@ const Home = () => {
       <Doctor />
 
       {/* =============== doctor section end ============== */}
+
+
+      {/* =============== faq section ============== */}
+
+      <Faq />
+
+      {/* =============== faq section end ============== */}
+
 
     </>
   )
