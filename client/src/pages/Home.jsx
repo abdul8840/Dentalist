@@ -8,6 +8,7 @@ import icon01 from "../assets/images/icon01.png"
 import icon02 from "../assets/images/icon02.png"
 import icon03 from "../assets/images/icon03.png"
 import About from '../components/about/About'
+import HomeServices from '../components/services/HomeServices'
 
 
 const Home = () => {
@@ -148,6 +149,12 @@ const Home = () => {
         <About />
 
       {/* =============== about section end ============== */}
+
+      {/* =============== services section ============== */}
+
+      <HomeServices />
+
+      {/* =============== services section end ============== */}
 
     </>
   )
