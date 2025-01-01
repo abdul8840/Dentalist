@@ -14,6 +14,7 @@ const HomeServices = () => {
 
             <ServiceList />
         </div>
+
     </section>
   )
 }
