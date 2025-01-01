@@ -1,8 +1,15 @@
 import React from 'react'
+import ContactHero from '../components/contact/ContactHero'
+import ContactHighlight from '../components/contact/ContactHighlight'
+import ContactLocation from '../components/contact/ContactLocation'
 
 const Contact = () => {
   return (
-    <section>
+    <>
+    <ContactHero />
+    <ContactHighlight />
+    <ContactLocation />
+      <section>
       <div className="px-4 mx-auto max-w-screen-md">
         <h2 className="heading text-center">Contact us</h2>
         <p className="mb-8 lg:mb-16 font-light text-center text__para text-textColor">
@@ -27,6 +34,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
+    </>
   )
 }
 
